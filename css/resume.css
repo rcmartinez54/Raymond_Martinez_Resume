@@ -190,7 +190,7 @@ nav ul li:hover {
 }
 
 .two {
-	height: 100vh;
+	// height: 100vh;
 	background: linear-gradient(to bottom, gray, transparent), url('../img/two_background6.jpeg') fixed;
 	background-size: cover;
 }
@@ -204,18 +204,23 @@ nav ul li:hover {
 }
 
 @media (max-width: 414px) {
-	.two {
-		height: 38vh;
-	}
+	
 }
 
 #showContainer {
-	width: 640px;
+	width: 70%;
 	padding: 0;
 	margin: 0 auto;
 	overflow: hidden;
 	position: relative;
 	padding-top: 20px;
+	padding-bottom: 30px;
+}
+
+#showContainer a {
+	text-decoration: none;
+	color: #000;
+	font-size: 22px;
 }
 
 .navButton {
@@ -252,7 +257,7 @@ nav ul li:hover {
 }
 
 .three {
-	height: 75vh;
+	// height: 75vh;
 	background-color: white;
 }
 

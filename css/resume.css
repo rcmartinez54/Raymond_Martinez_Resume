@@ -257,7 +257,7 @@ nav ul li:hover {
 }
 
 .three {
-	// height: 75vh;
+	height: 75vh;
 	background-color: white;
 }
 
@@ -298,6 +298,10 @@ textarea {
 	width: 50%;
     float: right;
     padding: 30px;
+}
+
+.submit_button:hover {
+	background: lightblue;
 }
 
 @media (max-width: 1020px) {

@@ -1,9 +1,4 @@
 
-// Font-Family: 'Oswald', Sans-Serif;
-// Font-Size: 48px;
-// Font-Family: 'Quattrocento', Serif;
-// Font-Size: 16px;
-
 .clearfix::after {
 	content: "";
 	clear: both;
@@ -13,6 +8,7 @@
 body {
 	font-family: 'Quattrocento', Serif;
 	font-size: 16px;
+	max-width: 100%;
 }
 
 header  {
@@ -47,6 +43,10 @@ nav ul a li {
 
 nav ul li:hover {
 	border-bottom: 3px solid red;
+}
+
+@media (max-width: 800px) {
+
 }
 
 #hero {
@@ -91,7 +91,6 @@ nav ul li:hover {
 #about {
 	background: white;
 	background-size: cover;
-	// height: 80vh;
 	margin: 10px 20px;
 	padding: 100px 200px;
 }
@@ -129,8 +128,13 @@ nav ul li:hover {
 	text-align: center;
 }
 
+@media (max-width: 800px) {
+	#about {
+		padding: 50px 100px;
+	}
+}
+
 .two {
-	// height: 100vh;
 	background: linear-gradient(to bottom, gray, transparent), url('../img/two_background6.jpeg') fixed;
 	background-size: cover;
 }
@@ -204,6 +208,16 @@ nav ul li:hover {
 	width: 100%;
 }
 
+@media (max-width: 800px) {
+	.two_p {
+		font-size: 3em;
+	}
+	.navButton {
+		width: 50px;
+		height: 15px;
+	}
+}
+
 #contact {
 	background-color: white;
 	margin-bottom: 100px;
@@ -229,7 +243,7 @@ input, textarea {
 	background: #f2f2f2;
     padding: 10px;
     font-size: 25px;
-	width: 100%;
+	width: 90%;
 	margin-top: 30px;
 	border-radius: 5px;
     border-bottom-right-radius: 0;
@@ -244,12 +258,21 @@ textarea {
 	background: gray;
 	color: white;
 	width: 50%;
-    float: right;
     padding: 30px;
 }
 
 .submit_button:hover {
 	background: lightblue;
+}
+
+@media (max-width: 800px) {
+
+}
+
+@media (max-width: 500px) {
+	#contact {
+		width: 50%;
+	}
 }
 
 footer {

@@ -5,6 +5,11 @@
 	display: table;
 }
 
+body {
+	font-family: 'Catamaran', Sans-Serif;
+	font-size: 16px;
+}
+
 header  {
 	color: lightcyan;
 	background: url('../img/web.jpeg') fixed;
@@ -62,36 +67,26 @@ nav ul li:hover {
 }
 
 @media (max-width: 600px) {
-	header {
-		height: 80vh;
-	}
+	
 }
 
 @media (max-width: 413px) {
-	header {
-		height: 40vh;
-	}
+	
 }
 
-body {
-	font-family: 'Catamaran', Sans-Serif;
-	font-size: 16px;
-
-}
-
-.intro {
+.intro span:first-child {
 	font-size: 65px;
 }
 
-.what_i_do {
+.intro span:last-child {
 	float: right;
 	font-size: 44px;
 	margin-top: 30px;
 }
 
-h1 {
-	float: right;
-}
+// h1 {
+// 	float: right;
+// }
 
 .section-title {
 	text-transform: uppercase;

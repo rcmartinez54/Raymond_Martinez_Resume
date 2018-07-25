@@ -50,7 +50,10 @@ nav ul li:hover {
 
 @media (max-width: 500px) {
 	nav ul {
-		font-size: 12px;
+		font-size: 18px;
+	}
+	nav ul li {
+		padding: 22px;
 	}
 }
 
@@ -256,8 +259,14 @@ nav ul li:hover {
 		font-size: 2em;
 		padding: 20px 0 5px;
 	}
+	.navButton{
+		width: 20px;
+	}
 	#showContainer {
 		width: 95%;
+	}
+	#showContainer a {
+		font-size: 25px;
 	}
 }
 

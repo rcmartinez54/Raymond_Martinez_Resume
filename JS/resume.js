@@ -21,17 +21,16 @@ $(document).ready(function() {
 	});
 
 	$('form[name="contact_form"]').on('submit', function(e) {
-		e.preventDefault();
+		
 		var name = $('input[name="name"]').val(),
-		var email = $('input[name="email"]').val();
-		if (name.length || email.length) {
-			$('form[name="contact_form"]').submit();
-		} else {
-			$('.submit_button').text('Please Enter Name and Email').css('background', 'red');
-			setTimout(function() {
-				$('.submit_button').text('Submit').css('background', '#9999ff');
+			email = $('input[name="email"]').val();
+		if (!name.length || !email.length) {
+			e.preventDefault();
+			$('.submit_button').val('Please Enter Name and Email').css('background', 'red');
+			setTimeout(function() {
+				$('.submit_button').val('Submit').css('background', '#9999ff');
 			}, 2000);
-		}
+		} 
  	});
 
 	$('ul').find('a').click(function(){

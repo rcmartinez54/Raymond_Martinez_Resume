@@ -77,6 +77,7 @@ nav ul li:hover {
 }
 
 .intro h1 {
+	display: none;
 	font-size: 65px;
 	text-align: center;
 	margin-bottom: 20px;
@@ -84,6 +85,7 @@ nav ul li:hover {
 }
 
 .intro h2 {
+	display: none;
 	text-align: center;
 	font-size: 44px;
 	font-family: 'Oswald', Sans-Serif;
@@ -116,6 +118,7 @@ nav ul li:hover {
 
 .one h2 {
 	font-family: 'Oswald', Serif;
+	border-bottom: 1px solid #ccc;
 	font-size: 40px;
 	margin-bottom: 100px;
 }

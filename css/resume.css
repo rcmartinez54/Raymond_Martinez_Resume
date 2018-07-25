@@ -8,7 +8,6 @@
 body {
 	font-family: 'Quattrocento', Serif;
 	font-size: 16px;
-	max-width: 100%;
 }
 
 header  {
@@ -49,6 +48,12 @@ nav ul li:hover {
 
 }
 
+@media (max-width: 500px) {
+	nav ul {
+		font-size: 12px;
+	}
+}
+
 #hero {
 	background: url('../img/web.jpeg') fixed;
 	background-size: cover;
@@ -82,6 +87,20 @@ nav ul li:hover {
 	text-align: center;
 	font-size: 44px;
 	font-family: 'Oswald', Sans-Serif;
+}
+
+@media (max-width: 800px) {
+
+}
+
+@media (max-width: 500px) {
+
+	.intro h1 {
+		font-size: 45px;
+	}
+	.intro h2 {
+		font-size: 20px;
+	}
 }
 
 .section-title {
@@ -134,6 +153,16 @@ nav ul li:hover {
 	}
 }
 
+@media (max-width: 500px) {
+	#about {
+		padding: 50px 10px;	
+	}
+	.one .imageContain img {
+		width: 75%;
+		margin: 10px;
+	}
+}
+
 .two {
 	background: linear-gradient(to bottom, gray, transparent), url('../img/two_background6.jpeg') fixed;
 	background-size: cover;
@@ -160,15 +189,16 @@ nav ul li:hover {
 
 #showContainer a {
 	text-decoration: none;
-	color: #000;
-	font-size: 40px;
+	color: #fff;
+	font-family: 'Oswald', Sans-Serif;
+	font-size: 35px;
 	
 }
 
 #showContainer .caption {
-	background: rgba(255, 255, 255, 0.5);
+	background: rgba(0, 0, 0, 0.5);
 	padding: 5px; 
-	border-radius: 5px;
+	border-radius: 2px;
 }
 
 #showContainer .imageContainer .slide_img {
@@ -218,6 +248,16 @@ nav ul li:hover {
 	}
 }
 
+@media (max-width: 500px) {
+	.two_p {
+		font-size: 2em;
+		padding: 20px 0 5px;
+	}
+	#showContainer {
+		width: 95%;
+	}
+}
+
 #contact {
 	background-color: white;
 	margin-bottom: 100px;
@@ -225,9 +265,8 @@ nav ul li:hover {
 
 .three .form_heading {
 	font-family: 'Oswald', Serif;
-	margin-left: 140px;
+	text-align: center;
 	margin-top: 50px;
-	text-align: left;
 	font-size: 2.5em;
 	width: 100%;
 }
@@ -236,7 +275,7 @@ form {
 	text-align: center;
 	margin: auto;
 	width: 80%;
-	padding: 20px 140px;
+	padding: 20px;
 }
 
 input, textarea {
@@ -266,17 +305,25 @@ textarea {
 }
 
 @media (max-width: 800px) {
-
+	form {
+		padding: 20px;
+	}
 }
 
 @media (max-width: 500px) {
 	#contact {
-		width: 50%;
+		width: 100%;
+	}
+	.three .form_heading {
+		margin-left: 0px;
+		text-align: center;
+	}
+	textarea {
+		height: 100px;
 	}
 }
 
 footer {
-	height: 18vh;
 	background: gray;
 	margin-top: 0;
 	color: white;
@@ -295,10 +342,4 @@ footer h2 {
 footer img {
 	width: 40px;
 	margin: 10px;
-}
-
-@media (max-width: 414px) {
-	footer {
-		height: 10vh;
-	}
 }

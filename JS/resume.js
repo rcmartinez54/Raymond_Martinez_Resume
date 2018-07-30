@@ -54,7 +54,7 @@ $(document).ready(function() {
 		});
 
 		var currentImage = 1;
-		var totalImages = 5;
+		var totalImages = 4;
 
 		function increaseImage() {
 			++currentImage;

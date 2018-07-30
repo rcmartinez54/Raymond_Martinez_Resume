@@ -283,6 +283,11 @@ nav ul li:hover {
 	width: 100%;
 }
 
+.three h3 {
+	text-align: center;
+	margin-top: 10px;
+}
+
 form {
 	text-align: center;
 	margin: auto;

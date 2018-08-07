@@ -1,6 +1,8 @@
 
 $(document).ready(function() {
 
+	// Fades the intro upon page load
+
 	(function () {
 		$('.intro h1').fadeIn(500, function () {
 			$('.intro h2').delay(1000).fadeIn(500);
@@ -20,6 +22,8 @@ $(document).ready(function() {
 
 	});
 
+	// Form validator
+
 	$('form[name="contact_form"]').on('submit', function(e) {
 		
 		var name = $('input[name="name"]').val(),
@@ -33,6 +37,8 @@ $(document).ready(function() {
 		} 
  	});
 
+ 	// Smooth scrolling
+
 	$('ul').find('a').click(function(){
 	    var $href = $(this).attr('href');
 	    var $anchor = $('#'+$href).offset();
@@ -40,6 +46,7 @@ $(document).ready(function() {
 	    return false;
 	});
 
+	// Slideshow for current projects
 
 	$(document).ready(function() {
 		$('#previous').on('click', function() {

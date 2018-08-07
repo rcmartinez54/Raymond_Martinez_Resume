@@ -244,6 +244,17 @@ nav ul li:hover {
 	width: 100%;
 }
 
+.imageContainer p {
+	background: rgba(0, 0, 0, 0.5);
+	color: #fff;
+	width: 60%;
+	margin-bottom: 15px;
+	padding: 10px;
+	font-size: 20px;
+	line-height: 1.2;
+	text-align: justify;
+}
+
 @media (max-width: 800px) {
 	.two_p {
 		font-size: 3em;

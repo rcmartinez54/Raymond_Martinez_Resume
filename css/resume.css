@@ -247,7 +247,7 @@ nav ul li:hover {
 .imageContainer p {
 	background: rgba(0, 0, 0, 0.5);
 	color: #fff;
-	width: 60%;
+	width: 50%;
 	margin-bottom: 15px;
 	padding: 10px;
 	font-size: 20px;
@@ -262,6 +262,9 @@ nav ul li:hover {
 	.navButton {
 		width: 50px;
 		height: 15px;
+	}
+	#showContainer p {
+		display: none;
 	}
 }
 
@@ -278,6 +281,9 @@ nav ul li:hover {
 	}
 	#showContainer a {
 		font-size: 25px;
+	}
+	#showContainer p {
+		display: none;
 	}
 }
 

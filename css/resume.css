@@ -255,6 +255,49 @@ nav ul li:hover {
 	text-align: justify;
 }
 
+.two .proj {
+	background: snow;
+	padding: 30px;
+	text-align: center;
+}
+
+.two .proj:after {
+	border-bottom: 1px solid lightgray;
+	text-align: center;
+	padding: 20px;
+	width: 95%;
+}
+
+.two .proj:last-child:after {
+	border-bottom: none;
+}
+
+.two .proj .proj-pic {
+	float: left;
+	width: 50%;
+	// text-align: center;
+}
+
+.two .proj .proj-pic img {
+	width: 60%;
+	border: 2px solid #000;
+	box-shadow: 5px 5px 10px gray;
+	border-radius: 5px;
+}
+
+.two .proj .proj-text {
+	font-family: 'Quattrocento', Serif;
+	float: right;
+	width: 50%;
+	text-align: justify;
+	font-size: 20px;
+	line-height: 1.5;
+}
+
+.two .proj .proj-text p {
+	padding: 20px;
+}
+
 @media (max-width: 800px) {
 	.two_p {
 		font-size: 3em;

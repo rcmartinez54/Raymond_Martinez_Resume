@@ -298,6 +298,10 @@ nav ul li:hover {
 	padding: 20px;
 }
 
+.two .proj .proj-text p:last-child {
+	font-size: 14px;
+}
+
 @media (max-width: 800px) {
 	.two_p {
 		font-size: 3em;
@@ -316,17 +320,31 @@ nav ul li:hover {
 		font-size: 2em;
 		padding: 20px 0 5px;
 	}
-	.navButton{
-		width: 20px;
+	// .navButton{
+	// 	width: 20px;
+	// }
+	// #showContainer {
+	// 	width: 95%;
+	// }
+	// #showContainer a {
+	// 	font-size: 25px;
+	// }
+	// #showContainer p {
+	// 	display: none;
+	// }
+	.two .proj:after {
+		width: 90%;
 	}
-	#showContainer {
-		width: 95%;
+	.two .proj .proj-pic {
+		float: none;
+		width: 100%;
 	}
-	#showContainer a {
-		font-size: 25px;
+	.two .proj .proj-pic img {
+		width: 100%;
 	}
-	#showContainer p {
-		display: none;
+	.two .proj .proj-text {
+		float: none;
+		width: 100%;
 	}
 }
 

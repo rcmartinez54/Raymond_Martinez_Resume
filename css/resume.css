@@ -368,7 +368,8 @@ nav ul li:hover {
 
 .three h3 {
 	text-align: center;
-	margin-top: 10px;
+	margin-top: 30px;
+	font-size: 25px;
 }
 
 form {
@@ -432,7 +433,7 @@ textarea {
 footer {
 	background: gray;
 	margin-top: 0;
-	color: white;
+	color: #ffff00;
 }
 
 footer h2 {

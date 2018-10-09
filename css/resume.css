@@ -146,7 +146,6 @@ nav ul li:hover {
 .one .imageContain img {
 	width: 30%;
 	margin: 30px;
-	border: 10px solid #ccccff;
 	border-radius: 5px;
 	box-shadow: 10px 10px 10px #999999;
 }

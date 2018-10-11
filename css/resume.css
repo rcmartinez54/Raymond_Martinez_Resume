@@ -41,7 +41,7 @@ nav ul a li {
 }
 
 nav ul li:hover {
-	border-bottom: 3px solid red;
+	border-bottom: 3px solid yellow;
 }
 
 @media (max-width: 800px) {

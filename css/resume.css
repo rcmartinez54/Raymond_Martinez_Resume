@@ -58,6 +58,8 @@ nav ul li:hover {
 }
 
 #hero {
+	display: flex;
+	justify-content: center;
 	background: url('../img/web.jpeg') fixed;
 	background-size: cover;
 	height: 100vh;
